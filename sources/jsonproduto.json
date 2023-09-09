@@ -1,0 +1,80 @@
+[
+  {
+    "codigo": 1,
+    "nome": "ARMARIO MOGNO A1",
+    "preco": 240.5000,
+    "qtd_estoque": 10
+  },
+  {
+    "codigo": 2,
+    "nome": "GELADEIRA BRASTEMP 400 L",
+    "preco": 1500.5000,
+    "qtd_estoque": 5
+  },
+  {
+    "codigo": 3,
+    "nome": "LG K10 POWER",
+    "preco": 750.0000,
+    "qtd_estoque": 50
+  },
+  {
+    "codigo": 4,
+    "nome": "ACER GAMER I7",
+    "preco": 7500.0000,
+    "qtd_estoque": 3
+  },
+  {
+    "codigo": 5,
+    "nome": "DELL I7 16 GB",
+    "preco": 5800.0000,
+    "qtd_estoque": 1
+  },
+  {
+    "codigo": 6,
+    "nome": "FIRESTON ARO 14",
+    "preco": 199.9900,
+    "qtd_estoque": 100
+  },
+  {
+    "codigo": 7,
+    "nome": "PIRELI ARO 16",
+    "preco": 339.9900,
+    "qtd_estoque": 100
+  },
+  {
+    "codigo": 8,
+    "nome": "MICHELAN ARO 15",
+    "preco": 449.9900,
+    "qtd_estoque": 50
+  },
+  {
+    "codigo": 9,
+    "nome": "IOS 10",
+    "preco": 7000.0000,
+    "qtd_estoque": 50
+  },
+  {
+    "codigo": 10,
+    "nome": "PS 4",
+    "preco": 2000.0000,
+    "qtd_estoque": 20
+  },
+  {
+    "codigo": 11,
+    "nome": "XBOX",
+    "preco": 2200.0000,
+    "qtd_estoque": 60
+  },
+  {
+    "codigo": 12,
+    "nome": "FOGÃO 8 BOCAS BRASTEMP",
+    "preco": 1500.0000,
+    "qtd_estoque": 240
+  },
+  {
+    "codigo": 13,
+    "nome": "SAMSUNG I7 8GB",
+    "preco": 3571.0000,
+    "qtd_estoque": null
+  }
+]
