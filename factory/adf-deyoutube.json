@@ -1,0 +1,9 @@
+{
+	"name": "adf-deyoutube",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db49d1f3-6f40-48bf-912e-f7b86b8adb46",
+		"tenantId": "47d260ef-c220-406e-bcf4-9dfa2c2074cc"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "ls_SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=localhost;Initial Catalog=AdventureWorksLT2019;User ID=heliton",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "passwordonpremisse"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHedYoutube",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
