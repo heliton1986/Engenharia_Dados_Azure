@@ -41,9 +41,12 @@ Usando Get Metadata para reconhecer os itens filhos, da camada Gold no data lake
 
 ![image](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/1ccc7361-ffb5-4ac8-978c-08f2edef362e)
 
-No Synapse criei uma store procedure para ser reconhecido no pipeline dentro do For each para criar views de todas as tabelas da camada Gold no banco serverless do Synapse.
+No Synapse criei uma store procedure para ser reconhecido no pipeline dentro do For each para criar views de todas as tabelas da camada Gold no banco serverless gold_db do Synapse.
 
 ![image](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/ae11f978-a4be-4c8c-bb88-18727047bcc3)
 
+Visualização das views criadas a partir do pipeline no Synapse
+
+![image](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/b8692ac6-9008-4fb2-aa96-c605659f598d)
 
 
