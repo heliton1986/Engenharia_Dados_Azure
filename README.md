@@ -8,7 +8,29 @@
 
 Criei uma Query para mostrar as tabelas do schema SalesLT
 
-![image](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/70735ba9-4340-4765-b57e-36af2e505010)
+````sql
+SELECT
+	s.name as SchemaName,
+	t.name as TableName
+FROM sys.tables t
+INNER JOIN sys.schemas s
+ON t.schema_id = s.schema_id
+WHERE s.name = 'SalesLT'
+````
+
+SchemaName |TableName
+|----------|-------------------------------|
+|SalesLT	  |Address                        |                               |
+|SalesLT	  |Customer                       |                                          
+|SalesLT	  |CustomerAddress                |                               
+|SalesLT   |Product                        |                                
+|SalesLT	  |ProductCategory                | 
+|SalesLT	  |ProductDescription             | 
+|SalesLT	  |ProductModel                   |
+|SalesLT	  |ProductModelProductDescription | 
+|SalesLT	  |SalesOrderDetail               | 
+|SalesLT	  |SalesOrderHeader               |
+--------------------------------------------
 
 ## Azure Data Factory
 
