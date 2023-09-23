@@ -114,4 +114,4 @@ Clique em membros e adicione o grupo eng-dados-grupo.
 ![gruporecurso6](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/5d150a19-105c-4fc6-9b1e-110995fd9db5)
 ![gruporecurso7](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/a439221b-52a1-4e13-91db-e1c0336edcab)
 
-Dessa forma o outro usuário terá acesso também ao grupo de recusrsos para fazer sua análises e relatórios.
+Dessa forma o outro usuário terá acesso também ao grupo de recursos para fazer sua análises e relatórios.
