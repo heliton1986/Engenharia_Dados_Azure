@@ -1,5 +1,11 @@
 # Engenharia de Dados Azure
 
+## Apresentação
+
+Nesse projeto extraio todas tabelas de um banco SQL Server on-premisse usando Azure Data Factory, carregando para a a camada Bronze e desta, fazendo transformações para as camadas Silver e Gold usando Azure Databricks. 
+Agora o próximo passo é fazer leitura através do Synapse dos dados da camada Gold através do SQL Database Serveless e posteriormente conectar ao Power BI para geração de relatórios e dashboards.
+Usando key vault e Active Directory, garantindo governança e segurança das credenciais.
+
 ## Arquitetura do Projeto
 
 ![novo azure meu](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/c98500cd-b79c-45f8-a7f9-b828ff401c65)
