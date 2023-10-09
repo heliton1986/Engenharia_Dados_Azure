@@ -87,7 +87,7 @@ Para conectar o Synapse com Power BI, foi preciso ir no recurso do Synapse no Az
 
 ![conexao synapse pbi](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/fb96eea8-ac40-443b-bf68-cc43c7a585c0)
 
-Dessa forma conectando ao POwer BI, todas as tabelas do banco escolhido aparecem no Power BI para carregamento ou transformação.
+Dessa forma conectando ao Power BI, todas as tabelas do banco escolhido aparecem no Power BI para carregamento ou transformação.
 Como os dados já foram transformados, apenas carreguei.
 
 ![pbi01](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/3edf83a0-17e2-4534-b20c-28461972c111)
@@ -105,7 +105,7 @@ Para poder dar acesso à outros usuários, usei o Azure AD para criar um grupo e
 ![AD3](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/e83286e5-f050-4036-81ff-361e34eb97d2)
 ![AD4](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/78b70dcf-ca09-4ea1-84c8-b868b0354b8a)
 
-No grupo de recursos em IAM adicione uma atribuição de função.
+No grupo de recursos em IAM adicionei uma atribuição de função.
 
 ![gruporecurso1](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/d3035811-23ec-4b58-b290-54bfdbd3f05e)
 ![gruporecurso2](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/37ba5c84-5476-4f96-92c9-9517fcecd192)
@@ -115,7 +115,7 @@ Funções de administrador previlegiadas - contribuidor.
 ![gruporecurso3](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/27d05f58-6073-4ad1-812a-d7fd2a034709)
 ![gruporecurso4](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/ec27c78a-1e9e-43a0-a276-6acff4ac0ce9)
 
-Clique em membros e adicione o grupo eng-dados-grupo.
+Cliquei em membros e adicione o grupo eng-dados-grupo.
 
 ![gruporecurso6](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/5d150a19-105c-4fc6-9b1e-110995fd9db5)
 ![gruporecurso7](https://github.com/heliton1986/Engenharia_Dados_Azure/assets/45739569/a439221b-52a1-4e13-91db-e1c0336edcab)
